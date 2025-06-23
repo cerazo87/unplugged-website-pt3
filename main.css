@@ -260,139 +260,89 @@ aside {
 /* ===== MEDIA BREAKPOINTS FOR TABLET ===== */
 
 @media only screen and (min-width: 768px) {
-
   /*Tablet styles here*/
-  /* General styles */
-  .content-wrapper {
-    max-width: 640px;
-    margin: 100px 0;
-  }
-
-  /* Header */
-
-  header {
-    width: 80%;
-    padding: 33px 0;
-  }
-
-  header .content-wrapper {
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  header nav {
-    width: 20%;
-  }
-
-  header nav ul {
-    justify-content: space-between;
-
-  }
-
-  .header-divider {
-    display: none;
-  }
-
-  /* Hero Area */
-
-  /* Aside */
-  aside .content-wrapper {
-    margin: 50px 0;
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-start;
-  }
-
-  aside .content-wrapper .form-description,
-  aside .content-wrapper .form {
-    width: 40%;
-    margin: 0;
-  }
-
-  /* Features */
-
-  .features article {
-    flex-basis: 50%;
-    display: flex;
-    align-items: center;
-    flex-flow: column wrap;
-
-  }
-
-  .features .features-item-description {
-    width: 50%;
-  }
-
-  /* Reviews */
-  .reviews article {
-    display: flex;
-    justify-content: space-between;
-
-  }
-
-  .reviews article div {
-    width: 49%;
-  }
-
-  /* About Section */
-  .mission-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex start;
-    padding-top: 20%;
-  }
-
-  .mission-content p {
-    width: 45%;
-  }
-
-  .contact-section .content-wrapper h2 {
-    width: 80%;
-  }
-
-  .contact-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
-  /* FAQ Section */
-  .faq .content-wrapper {
-    justify-content: space-between;
-  }
-
-  .faq-content {
-    flex-basis: 45%;
-  }
-
-  .faq h2 {
-    width: 100%;
-  }
-
-  /* Footer */
-  footer .content-wrapper {
-    width: 65%;
-  }
-
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  footer .contact {
-    margin-bottom: 0;
-  }
-
-  footer .copyright {
-    width: 100%;
-  }
+ /* General styles */
+    .content-wrapper {
+        max-width: 640px;
+        margin: 100px 0;
+    }
+ 
+    /* Header */
+ 
+    header {
+ 
+    }
+ 
+    header .content-wrapper {
+        width:
+    }
+ 
+    header nav {
+        width: 
+    }
+ 
+    header nav ul {
+ 
+    }
+ 
+    .header-divider {
+        display: none;
+    }
+ 
+    /* Hero Area */
+ 
+    /* Aside */
+    aside .content-wrapper {
+        margin: 50px 0;
+    }
+ 
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {        
+        width:         
+        margin: 0;
+    }
+ 
+    /* Features */
+ 
+    .features article {
+ 
+    }
+ 
+    .features .features-item-description {
+        width: 
+    }
+ 
+    /* Reviews */
+    .reviews article {
+ 
+    }
+    
+    .reviews article div {
+        width:         
+    }
+ 
+    /* Footer */
+    footer .content-wrapper {
+        width: 
+        margin: 100px 0;
+    }
+    
+    .footer-content {
+ 
+    }
+ 
+    footer .contact {
+        margin-bottom: 0;
+    }
+ 
+    footer .copyright {
+        width:
+    }
 }
 
 /* ===== MEDIA BREAKPOINTS FOR DESKTOP =====*/
 
 @media only screen and (min-width: 1200px) {
-
   /*Desktop styles here*/
   .features {
     width: 85%;
