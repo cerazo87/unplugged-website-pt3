@@ -288,6 +288,7 @@ aside {
   align-items: flex-start;
   flex-flow: row wrap;
   font-size: 60px;
+  text-align: center;
 }
 
 
@@ -298,6 +299,12 @@ aside {
 
 .features p {
   margin: 0;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+  width: 20%;
 }
 
 
@@ -517,6 +524,11 @@ input[type=button] {
     width: 62%;
   }
 
+  .features i {
+    width: 10%;
+    padding-right: 40px;
+  }
+
   /* Reviews */
   .reviews article {
     display: flex;
@@ -673,6 +685,10 @@ input[type=button] {
 
   .features article {
     flex-basis: 33%;
+  }
+
+  .features i {
+    width: 10%;
   }
 
 
