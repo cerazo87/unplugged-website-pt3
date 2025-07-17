@@ -90,7 +90,7 @@ textarea {
 /* General Styles */
 
 html {
-  font-size: 1rem;
+  font-size: 16px;
   color: #e2e3ed;
 }
 
@@ -111,6 +111,8 @@ a {
 
 }
 
+
+
 h1 {
   font-size: 36px;
   line-height: 43px;
@@ -120,13 +122,6 @@ h1 {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
-  font-weight: 500;
-}
-
-h3,
-h4 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
   font-weight: 500;
 }
 
@@ -307,7 +302,6 @@ aside {
   width: 20%;
 }
 
-
 /* REVIEWS SECTION */
 
 .reviews {
@@ -335,6 +329,7 @@ aside {
 }
 
 /* ABOUT PAGE */
+
 .map figure {
   width: 100%;
   height: 0;
@@ -367,12 +362,27 @@ aside {
   margin: 0;
 }
 
+.contact-section h4 {
+  font-size: 20px;
+  font-family: 'poppins', sans serif;
+  font-weight: 500;
+}
+
 /* Social */
-.social-icons {
+
+.social-icons a {
+  border-radius: 50%;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  justify-content: space-between;
   font-size: 21px;
   background: #527158;
 }
 
+.social-icons i {
+  padding-top: 10px;
+}
 
 /* FAQ PAGE */
 
@@ -390,20 +400,24 @@ aside {
   margin: 50px 0 0 0;
 }
 
-.faq h2 {
-  margin-bottom: 40px;
-  line-height: 30px;
+.faq h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
-.faq-area {
+.faq h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  margin: 20px 0;
+}
+
+.faq-content {
   margin-bottom: 50px;
 }
 
-.faq-area h4 {
-  line-height: 24px;
-}
-
 /* INPUT FORM */
+
 aside .form {
   margin-top: 30px;
 }
@@ -436,6 +450,7 @@ input[type=button] {
 
   /*Tablet styles here*/
   /* General styles */
+
   h1 {
     font-size: 48px;
     line-height: 48px;
@@ -485,6 +500,7 @@ input[type=button] {
   }
 
   /* Hero Area */
+
   .hero-area {
     min-height: 600px;
     padding-bottom: 100px;
@@ -497,6 +513,7 @@ input[type=button] {
   }
 
   /* Aside */
+
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
@@ -530,6 +547,7 @@ input[type=button] {
   }
 
   /* Reviews */
+
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -537,13 +555,15 @@ input[type=button] {
   }
 
   .reviews article div {
-    width: 49%;
+    width: 45%;
+    padding-top: 0;
   }
 
   /* About Section */
 
   .map figure {
     max-height: 350px;
+    padding-bottom: 45.5%;
   }
 
   .mission-content {
@@ -557,10 +577,6 @@ input[type=button] {
     width: 45%;
   }
 
-  .contact h4 {
-    font-size: 24px;
-  }
-
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -571,32 +587,51 @@ input[type=button] {
     align-items: flex-start;
   }
 
+  .contact-content h3 {
+    font-size: 1.5em;
+  }
+
+  .contact-section h2 {
+    font-size: 42px;
+    margin: 0;
+  }
+
+  .contact-section h4 {
+    font-size: 24px;
+    font-family: 'poppins', sans serif;
+    font-weight: 500
+  }
+
   /* FAQ Section */
+
   .faq .content-wrapper {
     justify-content: space-between;
   }
 
-  .faq-area {
+  .faq-content {
     flex-basis: 45%;
   }
 
+  .faq h1 {
+    font-size: 38px;
+  }
+
+  .faq h1,
   .faq h2 {
     width: 100%;
   }
 
-  .faq h4 {
-    font-size: 14px;
-    line-height: 15.75px;
+  .faq h2,
+  .faq p {
+    font-size: .875em;
+    line-height: 1.125;
   }
 
-  .faq p {
-    font-size: 14px;
-    line-height: 15.75px;
-  }
 
   /* Footer */
+
   footer h4 {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   footer p {
@@ -620,6 +655,16 @@ input[type=button] {
   footer .copyright {
     width: 100%;
   }
+
+
+  .social-icons {
+    gap: 30%;
+    padding-right: 30px;
+  }
+
+  footer .social h4 {
+    padding-left: 40px;
+  }
 }
 
 /* ===== MEDIA BREAKPOINTS FOR DESKTOP =====*/
@@ -627,6 +672,7 @@ input[type=button] {
 @media only screen and (min-width: 1200px) {
 
   /*Desktop styles here*/
+
   h1 {
     font-size: 60px;
   }
@@ -653,11 +699,13 @@ input[type=button] {
   }
 
   /* Header */
+
   header {
     padding: 15px 0;
   }
 
   /* Hero Area */
+
   .hero-area {
     min-height: 550px;
   }
@@ -669,6 +717,7 @@ input[type=button] {
   }
 
   /* Aside */
+
   aside .content-wrapper {
     justify-content: space-around;
   }
@@ -679,6 +728,7 @@ input[type=button] {
   }
 
   /* Features */
+
   .features h2 {
     width: 90%;
   }
@@ -693,13 +743,17 @@ input[type=button] {
 
 
   /* Reviews */
+
   .reviews article div {
-    width: 42%;
+    width: 45%;
+    padding-right: 80px;
+    padding-top: 0;
   }
 
   /* ABOUT SECTION */
+
   .map figure {
-    padding-bottom: 45.5%;
+    padding-bottom: 37.5%;
   }
 
   .mission h2,
@@ -713,14 +767,24 @@ input[type=button] {
   }
 
   /* FAQ SECTION */
-  .faq h2 {
-    width: 100%;
-    font-size: 48px;
+
+  .faq h1 {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
   }
 
-  .faq h4 p {
-    font-size: 18px;
-    line-height: 18px;
+  .faq h2 {
+    font-size: 1.125em;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
   }
 }
 
