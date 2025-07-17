@@ -313,15 +313,19 @@ aside {
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 30px;
+  padding-bottom: 30px;
+
 }
 
 .reviews h3 {
+  font-weight: 500;
+  font-size: 28px;
   width: 80%;
   margin: 0;
 }
 
 .reviews img {
-  width: 335px;
+  width: 340px;
 }
 
 .reviews article div {
@@ -362,13 +366,19 @@ aside {
   margin: 0;
 }
 
-.contact-section h4 {
+.contact h4 {
   font-size: 20px;
   font-family: 'poppins', sans serif;
   font-weight: 500;
 }
 
 /* Social */
+
+.social h4 {
+  font-size: 20px;
+  font-family: 'poppins', sans serif;
+  font-weight: 500;
+}
 
 .social-icons a {
   border-radius: 50%;
@@ -559,6 +569,12 @@ input[type=button] {
     padding-top: 0;
   }
 
+  .reviews h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'poppin', sans-serif;
+  }
+
   /* About Section */
 
   .map figure {
@@ -596,10 +612,23 @@ input[type=button] {
     margin: 0;
   }
 
-  .contact-section h4 {
+  .contact h4 {
     font-size: 24px;
     font-family: 'poppins', sans serif;
     font-weight: 500
+  }
+
+  /* SOCIAL */
+
+  .social h4 {
+    font-size: 24px;
+    font-family: 'poppins', sans serif;
+    font-weight: 500
+  }
+
+  .social-icons {
+    gap: 30%;
+    padding-right: 30px;
   }
 
   /* FAQ Section */
@@ -654,12 +683,6 @@ input[type=button] {
 
   footer .copyright {
     width: 100%;
-  }
-
-
-  .social-icons {
-    gap: 30%;
-    padding-right: 30px;
   }
 
   footer .social h4 {
@@ -724,7 +747,11 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
+  }
+
+  .form p {
+    font-size: 16px;
   }
 
   /* Features */
@@ -744,10 +771,29 @@ input[type=button] {
 
   /* Reviews */
 
-  .reviews article div {
-    width: 45%;
+  .reviews article div,
+  .reviews article figure {
+    width: 49%;
     padding-right: 80px;
     padding-top: 0;
+  }
+
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviews h2 {
+    width: 85%;
+  }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
+  }
+
+  .reviews img {
+    width: 100%;
   }
 
   /* ABOUT SECTION */
@@ -763,7 +809,7 @@ input[type=button] {
   }
 
   .mission h2 {
-    font-size: 48px;
+    font-size: 30px;
   }
 
   /* FAQ SECTION */
